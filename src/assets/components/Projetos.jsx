@@ -11,7 +11,7 @@ export const Projetos = () =>{
         label="Meus Projetos"
       />
 
-        <div className="lg:grid lg:grid-cols-2 lg:w-5/6 lg:gap-x-8 lg:gap-y-12">
+        <div className="lg:grid lg:grid-cols-2 lg:w-5/6 lg:gap-x-8 lg:gap-y-12 flex flex-col gap-5">
           <Projeto 
             src={imagemCalcGorjeta}
             alt="imagem da calculadora de gorjeta"
