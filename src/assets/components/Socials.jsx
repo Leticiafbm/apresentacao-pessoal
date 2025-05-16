@@ -1,6 +1,6 @@
 export const Socials = () => {
   return(
-    <article className="text-lightgray flex gap-4 justify-center">
+    <article className="text-lightgray flex gap-4 justify-center lg:justify-start">
 
       <a href="https://github.com/Leticiafbm" target="_blank" className="hover:text-lightcyan active:text-lightcyan">
         <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" viewBox="0 0 24 24">

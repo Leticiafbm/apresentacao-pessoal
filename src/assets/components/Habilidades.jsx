@@ -9,12 +9,12 @@ import cssLogo from '../../assets/images/css-icon.svg';
 
 export const Habilidades = () => {
   return(
-    <section id="habilidades" className="flex flex-col gap-15 mt-10">
+    <section id="habilidades" className="flex flex-col gap-15 mt-10 lg:w-5/6">
       <Title
         label="Habilidades"
       />
 
-      <div className="grid grid-cols-2 gap-x-8 gap-y-14">
+      <div className="grid grid-cols-2 gap-x-8 gap-y-14 lg:grid-cols-3">
         <Habilidade 
           src={htmlLogo}
           alt="html logo"
