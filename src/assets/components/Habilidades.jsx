@@ -1,5 +1,11 @@
 import { Habilidade } from "./Habilidade";
 import { Title } from "./Title";
+import jsLogo from '../../assets/images/techs/javascript-icon.svg';
+import reactLogo from '../../assets/images/techs/react-icon.svg';
+import tailwindLogo from '../../assets/images/techs/tailwind-css-icon.svg';
+import gitLogo from '../../assets/images/techs/git-icon.svg';
+import htmlLogo from '../../assets/images/techs/html-icon.svg';
+import cssLogo from '../../assets/images/techs/css-icon.svg';
 
 export const Habilidades = () => {
   return(
@@ -10,32 +16,32 @@ export const Habilidades = () => {
 
       <div className="grid grid-cols-2 gap-x-8 gap-y-14">
         <Habilidade 
-          src="/src/assets/images/html-icon.svg"
+          src={htmlLogo}
           alt="html logo"
           label="HTML"
         />
         <Habilidade 
-          src="/src/assets/images/css-icon.svg"
+          src={cssLogo}
           alt="css logo"
           label="CSS"
         />
         <Habilidade 
-          src="/src/assets/images/javascript-icon.svg"
+          src={jsLogo}
           alt="javascript logo"
           label="JavaScript"
         />
         <Habilidade 
-          src="/src/assets/images/tailwind-css-icon.svg"
+          src={tailwindLogo}
           alt="tailwind logo"
           label="Tailwind"
         />
         <Habilidade 
-          src="/src/assets/images/react-icon.svg"
+          src={reactLogo}
           alt="react logo"
           label="ReactJs"
         />
         <Habilidade 
-          src="/src/assets/images/git-icon.svg"
+          src={gitLogo}
           alt="git logo"
           label="Git"
         />
