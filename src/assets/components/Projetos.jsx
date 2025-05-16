@@ -1,8 +1,8 @@
 import { Projeto } from "./Projeto";
 import { Title } from "./Title";
-import imagemCalcHipoteca from "./assets/images/mortgage-calculator.png"
-import imagemCalcGorjeta from "./assets/images/tip-calculator.png"
-import imagemCalcIdade from "./assets/images/age-calculator.png"
+import imagemCalcHipoteca from "../../assets/images/mortgage-calculator.png"
+import imagemCalcGorjeta from "../../assets/images/tip-calculator.png"
+import imagemCalcIdade from "../../assets/images/age-calculator.png"
 
 export const Projetos = () =>{
   return(
