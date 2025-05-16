@@ -1,5 +1,8 @@
 import { Projeto } from "./Projeto";
 import { Title } from "./Title";
+import imagemCalcHipoteca from "./assets/images/mortgage-calculator.png"
+import imagemCalcGorjeta from "./assets/images/tip-calculator.png"
+import imagemCalcIdade from "./assets/images/age-calculator.png"
 
 export const Projetos = () =>{
   return(
@@ -10,7 +13,7 @@ export const Projetos = () =>{
 
       <>
         <Projeto 
-          src="/src/assets/images/tip-calculator.png"
+          src={imagemCalcGorjeta}
           alt="imagem da calculadora de gorjeta"
           title="Calculadora de Gorjeta"
           desc="Sistema de cálculo dinâmico com base em inputs do usuário."
@@ -19,7 +22,7 @@ export const Projetos = () =>{
           techs={["ReactJs", "Tailwind"]}
         />
         <Projeto 
-          src="/src/assets/images/mortgage-calculator.png"
+          src={imagemCalcHipoteca}
           alt="imagem da calculadora de hipoteca"
           title="Calculadora de hipoteca"
           desc="Aplicação com inputs controlados e validação dinâmica."
@@ -28,7 +31,7 @@ export const Projetos = () =>{
           techs={["HTML", "Tailwind", "JavaScript"]}
         />
         <Projeto 
-          src="/src/assets/images/age-calculator.png"
+          src={imagemCalcIdade}
           alt="imagem da calculadora de idade"
           title="Calculadora de idade"
           desc="Cálculo dinâmico de idade com parsing e validação em tempo real."
