@@ -1,11 +1,11 @@
 import { Habilidade } from "./Habilidade";
 import { Title } from "./Title";
-import jsLogo from '../../assets/images/techs/javascript-icon.svg';
-import reactLogo from '../../assets/images/techs/react-icon.svg';
-import tailwindLogo from '../../assets/images/techs/tailwind-css-icon.svg';
-import gitLogo from '../../assets/images/techs/git-icon.svg';
-import htmlLogo from '../../assets/images/techs/html-icon.svg';
-import cssLogo from '../../assets/images/techs/css-icon.svg';
+import jsLogo from '../../assets/images/javascript-icon.svg';
+import reactLogo from '../../assets/images/react-icon.svg';
+import tailwindLogo from '../../assets/images/tailwind-css-icon.svg';
+import gitLogo from '../../assets/images/git-icon.svg';
+import htmlLogo from '../../assets/images/html-icon.svg';
+import cssLogo from '../../assets/images/css-icon.svg';
 
 export const Habilidades = () => {
   return(
